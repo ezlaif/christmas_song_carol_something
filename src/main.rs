@@ -33,7 +33,7 @@ fn main() {
         "Five golden rings", "Six geese a-laying", "Seven swans a-swimming", "Eight maids a-milking",
         "Nine ladies dancing", "Ten lords a-leaping", "Eleven pipers piping", "Twelve drummers drumming"
     ];
-    let mut index: i8 = 0;
+    let mut index: usize = 0;
     while index < (DAYS.len()) {
         println!("On the {} day of Christmas my true love sent to me", DAYS[index]);
         for inner_index in (0..(index + 1)).rev() {
